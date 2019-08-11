@@ -1,4 +1,4 @@
-# AzTech-Zarinpal-for-nopCommerce
+# AzTech Zarinpal for nopCommerce
 Zarinpal payment plugin for nopCommerce
 
 افزونه پرداخت زرین پال برای سیستم فروشگاه ساز ناپ کامرس
