@@ -28,4 +28,7 @@ Forums: [https://www.nopcommerce.com/boards/](https://www.nopcommerce.com/boards
 Gitter.im chat room: [https://gitter.im/nopCommerce-official/Lobby](https://gitter.im/nopCommerce-official/Lobby)
 
 
+## Zarinpal resources: ##
+website [https://www.zarinpal.com](https://www.zarinpal.com)
+
 Special Thanks to Bo [Norgaard](https://www.codeproject.com/Members/Bo-Norgaard) for sharing [IP list](https://www.codeproject.com/Articles/2553/IP-list-Check-an-IP-number-against-a-list-in-C)
