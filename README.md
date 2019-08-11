@@ -1,6 +1,13 @@
 # AzTech-Zarinpal-for-nopCommerce
 Zarinpal payment plugin for nopCommerce
+
 افزونه پرداخت زرین پال برای سیستم فروشگاه ساز ناپ کامرس
+
+## قابلیت های کلیدی ##
+- امکان استفاده از SandBox 
+- قطع دسترسی آی پی های خارج از کشور
+- تبدیل ریال به تومان
+
 
 ## nopCommerce resources: ##
 
