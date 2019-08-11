@@ -3,6 +3,8 @@ Zarinpal payment plugin for nopCommerce
 
 افزونه پرداخت زرین پال برای سیستم فروشگاه ساز ناپ کامرس
 
+![Zarinpal](https://www.zarinpal.com/lab/wp-content/uploads/sites/2/2016/05/icon-128x128.png)
+
 ## قابلیت های کلیدی ##
 - امکان استفاده از SandBox 
 - قطع دسترسی آی پی های خارج از کشور
