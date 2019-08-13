@@ -5,7 +5,6 @@ using Nop.Core.Domain.Customers;
 using Nop.Core.Domain.Directory;
 using Nop.Core.Domain.Orders;
 using Nop.Core.Domain.Payments;
-using Nop.Plugin.Payments.SamplePlayer.Controllers;
 using Nop.Services.Common;
 using Nop.Services.Configuration;
 using Nop.Services.Customers;
@@ -292,10 +291,10 @@ namespace AzTech.Plugin.Payments.Zarinpal
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.ZarinPal.Instructions",
              string.Concat("شما می توانید از زرین پال به عنوان یک درگاه پرداخت استفاده نمایید، زرین پال یک لانک نیست بلکه یک وسط بانکی است که کاربران میتوانند از طریق آن مبلغ مورد نظر را پرداخت نمایند، باید آگاه باشید که درگاه زرین پال درصدی از پول پرداخت شده کاربران را به عنوان کارمزد دریافت میکند.",
             "<br/>", "توجه داشته باشید که اگر فیلد کد پذیرنده خالی باشد درگاه زرین پال در هنگام پرداخت مخفی می شود و قابل انتخاب نیست"), languageCulture: "fa-IR");
-            _localizationService.AddOrUpdatePluginLocaleResource("plugins.payments.zarinpal.paymentmethoddescription", "ZarinPal, The Bank Interface");
-            _localizationService.AddOrUpdatePluginLocaleResource("plugins.payments.zarinpal.paymentmethoddescription", "درگاه واسط زرین پال", languageCulture: "fa-IR");
-            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.PayPalStandard.Fields.RedirectionTip", "You will be redirected to ZarinPal site to complete the order.");
-            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.PayPalStandard.Fields.RedirectionTip", "هم اکنون به درگاه بانک زرین پال منتقل می شوید.", languageCulture: "fa-IR");
+            _localizationService.AddOrUpdatePluginLocaleResource("plugins.payments.zarinpal.PaymentMethodDescription", "ZarinPal, The Bank Interface");
+            _localizationService.AddOrUpdatePluginLocaleResource("plugins.payments.zarinpal.PaymentMethodDescription", "درگاه واسط زرین پال", languageCulture: "fa-IR");
+            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RedirectionTip", "You will be redirected to ZarinPal site to complete the order.");
+            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RedirectionTip", "هم اکنون به درگاه بانک زرین پال منتقل می شوید.", languageCulture: "fa-IR");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.BlockOverseas", "Block oversease access (block non Iranians)");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.BlockOverseas", "قطع دسترسی برای آی پی های خارج از کشور", languageCulture: "fa-IR");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RialToToman", "Convert Rial To Toman");
@@ -328,9 +327,9 @@ namespace AzTech.Plugin.Payments.Zarinpal
             //locales
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.ZarinPal.Fields.UseSandbox");
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.ZarinPal.Fields.MerchantID");
-            _localizationService.DeletePluginLocaleResource("plugins.payments.zarinpal.paymentmethoddescription");
+            _localizationService.DeletePluginLocaleResource("plugins.payments.zarinpal.PaymentMethodDescription");
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.ZarinPal.Instructions");
-            _localizationService.DeletePluginLocaleResource("Plugins.Payments.PayPalStandard.Fields.RedirectionTip");
+            _localizationService.DeletePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RedirectionTip");
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.BlockOverseas");
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RialToToman");
             _localizationService.DeletePluginLocaleResource("Plugins.Payments.Zarinpal.Fields.RialToToman.Instructions");
@@ -420,7 +419,7 @@ namespace AzTech.Plugin.Payments.Zarinpal
         {
             //return description of this payment method to be display on "payment method" checkout step. good practice is to make it localizable
             //for example, for a redirection payment method, description may be like this: "You will be redirected to PayPal site to complete the payment"
-            get { return _localizationService.GetResource("Plugins.Payments.ZarinPal.PaymentMethodDescription"); }
+            get { return _localizationService.GetResource("plugins.payments.zarinpal.PaymentMethodDescription"); }
         }
 
         #endregion

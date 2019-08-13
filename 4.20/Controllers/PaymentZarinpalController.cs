@@ -24,7 +24,7 @@ using Nop.Web.Framework.Mvc.Filters;
 using Nop.Web.Framework;
 using Nop.Services.Security;
 
-namespace Nop.Plugin.Payments.SamplePlayer.Controllers
+namespace Nop.Plugin.Payments.Controllers
 {
     public class PaymentZarinPalController : BasePaymentController
     {
