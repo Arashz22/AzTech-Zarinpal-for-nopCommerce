@@ -9,7 +9,7 @@ Zarinpal payment plugin for nopCommerce
 - امکان استفاده از SandBox 
 - قطع دسترسی آی پی های خارج از کشور
 - تبدیل ریال به تومان
-
+- دو زبانه بودن (پارسی و انگلیسی)
 
 ## nopCommerce resources: ##
 
