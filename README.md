@@ -1,3 +1,5 @@
+#### This Project Will continue [here](https://github.com/zandiarash/NopTop-Zarinpal-for-nopCommerce/releases/tag/2)
+
 # AzTech Zarinpal payment plugin for nopCommerce
 Zarinpal payment plugin for nopCommerce
 
